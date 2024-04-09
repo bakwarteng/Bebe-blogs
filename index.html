@@ -8,27 +8,40 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <button>Back</button>
-
     <h1>Welcome to Bebe Blogs</h1>
+ <button id="light-dark">Dark Mode</button>
 
     <h2>What's on your mind?</h2>
-    <section>
-      <label for=" username">Enter Your Username </label>
+    <section id="blogForm">
+      <label for="username">Enter Your Username </label>
       <input
-        type="username"
+        type="content"
         name="username"
-        id="username"
-        placeholder=" JaneDoe123"
-      />
+        placeholder="JaneDoe123"
+        id="username">
+      
 
-      <label for="Title">Title your Blog Entry </label>
-      <input type="Title" name="Title" id="title" placeholder="My Blog Entry" />
-      <label for="content ">Enter your blog </label>
-      <textarea id="content"></textarea>
+      <label for="blogTitle"> Title Your Blog Entry </label>
+     <input 
+      type="content" 
+      name="blogTitle" 
+      id="blogTitle"
+      placeholder="Title Here">
 
-      <button id="submit">Submit</button>
+
+      <label for="blogContent"> Write Your Blog Entry
+       <textarea
+        type="content"
+        name="blogContent"
+        id="blogContent"></textarea>
+     <button a href="posts.html" id="submitButton">Submit</button>
     </section>
+    <br>
+    <br>
+    
+    <div class="img-container">
+<img src="https://img.freepik.com/free-vector/blog-element-collection_23-2147560911.jpg?w=740" alt="blogging background freepik"></div>
+    
     <script src="assets/js/script.js"></script>
   </body>
 </html>

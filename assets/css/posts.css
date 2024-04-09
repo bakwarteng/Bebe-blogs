@@ -2,6 +2,7 @@ body {
   background-color: rgb(219, 219, 146);
   font-family: "Times New Roman", Times, serif;
 }
+
 .dark {
   background-color: black;
   color: rgb(219, 219, 146);
@@ -11,17 +12,11 @@ body {
   background-color: rgb(219, 219, 146);
   color: black;
 }
+
 button {
   cursor: pointer;
   padding: 5px;
   border-radius: 25%;
-  background-color: rgba(198, 190, 238);
-}
-
-.img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  size: 25px;
-  padding: 15px auto;
+  background-color: rgb(219, 219, 146);
+  color: black;
 }
