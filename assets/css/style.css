@@ -25,3 +25,11 @@ button {
   size: 25px;
   padding: 15px auto;
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 25px auto;
+}
