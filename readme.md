@@ -12,4 +12,6 @@ I worked with two tutors on this project Chris and Jacob, utilized sample codes 
 ## License
 
 MIT license
+## Deployed  
+https://bakwarteng.github.io/Bebe-blogs/
 ![Screenshot 2024-04-27 175638](https://github.com/bakwarteng/Bebe-blogs/assets/162824202/78504a0b-4f96-47f9-9ae0-d09a0873218a)
